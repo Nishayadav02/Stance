@@ -8,7 +8,8 @@ CREATE TABLE IF NOT EXISTS "prepGenie" (
 	"createdAt" varchar,
 	"mockId" varchar NOT NULL
 );
---> statement-breakpoint
+
+--> all statement-breakpoint
 CREATE TABLE IF NOT EXISTS "userAnswer" (
 	"id" serial PRIMARY KEY NOT NULL,
 	"mockId" varchar NOT NULL,
